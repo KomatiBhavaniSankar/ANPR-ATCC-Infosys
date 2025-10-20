@@ -1,0 +1,4 @@
+huggingface-hub
+paddleocr
+paddlepaddle
+db-sqlite3
