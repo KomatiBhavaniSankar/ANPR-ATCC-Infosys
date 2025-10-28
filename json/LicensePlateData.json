@@ -169,5 +169,101 @@
       "N656XH",
       "AL656XH"
     ]
+  },
+  {
+    "Start Time": "2025-10-22T20:15:38.800376",
+    "End Time": "2025-10-22T20:15:58.946323",
+    "License Plates": [
+      "R1831F",
+      "R1833F",
+      "R1B3JF",
+      "R183JF",
+      "NO_CLEAN_TEXT(\u2014_\u2014\u2014)",
+      "R183SF",
+      "RT",
+      "R1835F"
+    ]
+  },
+  {
+    "Start Time": "2025-10-22T20:15:58.946323",
+    "End Time": "2025-10-22T20:16:19.392690",
+    "License Plates": [
+      "R1833F",
+      "R1835F",
+      "4",
+      "RLEVSE",
+      "R1B336",
+      "RAGSIF",
+      "ECHK",
+      "VIST",
+      "NO_CLEAN_TEXT(BLANK)",
+      "RIB3IF",
+      "R163IF",
+      "R183JF",
+      "W1831F"
+    ]
+  },
+  {
+    "Start Time": "2025-10-22T20:16:19.392690",
+    "End Time": "2025-10-22T20:16:39.724068",
+    "License Plates": [
+      "CARR",
+      "ARYAAY",
+      "EYA",
+      "TNESH",
+      "CORRY",
+      "WORTH",
+      "THESHOE",
+      "LIE",
+      "EYAA",
+      "NB94V",
+      "NS9405",
+      "NESDS",
+      "TETWE",
+      "N894J",
+      "TREYOA",
+      "CAYAAY",
+      "MECHS",
+      "CTTA",
+      "PIMEGE",
+      "N894NY",
+      "NISAN",
+      "HEESEOO",
+      "NO_CLEAN_TEXT(BLANK)"
+    ]
+  },
+  {
+    "Start Time": "2025-10-23T20:08:57.433354",
+    "End Time": "2025-10-23T20:09:17.729864",
+    "License Plates": [
+      "NO_CLEAN_TEXT(\u2014_\u2014\u2014)",
+      "R1B3JF",
+      "R1831F",
+      "R1835F",
+      "R183JF",
+      "RT",
+      "R183SF",
+      "R1833F"
+    ]
+  },
+  {
+    "Start Time": "2025-10-23T20:09:17.729864",
+    "End Time": "2025-10-23T20:09:37.881176",
+    "License Plates": [
+      "RIB3IF",
+      "4",
+      "RLEVSE",
+      "NO_CLEAN_TEXT(BLANK)",
+      "R183JF",
+      "R1835F",
+      "W1831F",
+      "R163IF",
+      "R1B336",
+      "LIE",
+      "VIST",
+      "RAGSIF",
+      "R1833F",
+      "ECHK"
+    ]
   }
 ]
