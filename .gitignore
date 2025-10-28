@@ -113,18 +113,13 @@ temp/
 
 # === Machine learning / CV artifacts ===
 # model weights and checkpoints
+# (Do NOT ignore .pt models)
 *.pth
 *.ckpt
 *.h5
 *.onnx
 *.tflite
 *.pb
-
-# Ignore all .pt models except these:
-*.pt
-!best.pt
-!yolov10/best.pt
-!runs/detect/best.pt
 
 # YOLO / ultralytics / training runs
 runs/
