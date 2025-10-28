@@ -283,25 +283,17 @@ yarn-error.log*
 package-lock.json
 .pnpm-debug.log
 
-# === Certificate / keys / secrets ===
-*.pem
-*.key
-*.crt
-*.p12
-.env            # already listed but important to emphasize
-secrets/
-credentials/
+# === Machine learning / CV artifacts ===
+# model weights and checkpoints
+# *.pt        ← commented out so best.pt and other models are NOT ignored
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.tflite
+*.pb
 
-# === Misc / developer temporary files ===
-*.swp
-*.swo
-*~ 
-*.bak
-
-# === Git LFS hint (not ignored — for reference) ===
-# If you store large models/datasets, consider using Git LFS:
-#   git lfs install
-#   git lfs track "*.pt" "*.pth" "data/*" "weights/*"
-#
-# Do NOT add tracked LFS patterns to .gitignore (they should be tracked, not ignored)
-
+# Keep YOLO models (like best.pt) tracked
+!best.pt
+!yolov10/best.pt
+!runs/detect/best.pt
