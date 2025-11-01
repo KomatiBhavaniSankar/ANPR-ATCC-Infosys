@@ -701,5 +701,71 @@
       "EE3",
       "NO_CLEAN_TEXT(BLANK)"
     ]
+  },
+  {
+    "Start Time": "2025-11-01T19:28:14.682165",
+    "End Time": "2025-11-01T19:28:14.682165",
+    "License Plates": [
+      "NO_CLEAN_TEXT(BLANK)"
+    ]
+  },
+  {
+    "Start Time": "2025-11-01T19:28:32.878155",
+    "End Time": "2025-11-01T19:28:32.878155",
+    "License Plates": [
+      "NO_CLEAN_TEXT(BLANK)"
+    ]
+  },
+  {
+    "Start Time": "2025-11-01T19:28:34.733862",
+    "End Time": "2025-11-01T19:28:34.733862",
+    "License Plates": [
+      "NO_CLEAN_TEXT(BLANK)"
+    ]
+  },
+  {
+    "Start Time": "2025-11-01T20:30:30.913641",
+    "End Time": "2025-11-01T20:30:51.664591",
+    "License Plates": [
+      "FAO",
+      "ETRE",
+      "LSIS3",
+      "LSI6",
+      "SISLX",
+      "LSISES",
+      "EGRETS",
+      "NO_CLEAN_TEXT(BLANK)",
+      "LSISESL",
+      "LSISFX",
+      "LUSEE",
+      "LSI5FB",
+      "OSOR",
+      "AE",
+      "YSB"
+    ]
+  },
+  {
+    "Start Time": "2025-11-01T20:30:51.664591",
+    "End Time": "2025-11-01T20:31:12.236976",
+    "License Plates": [
+      "SISEFE",
+      "LSISEO",
+      "L515EBC",
+      "LSISEZ",
+      "LSIS2",
+      "LSISES",
+      "LSI5280",
+      "11S15EE",
+      "LSISEES",
+      "LSISE8",
+      "616ES",
+      "NO_CLEAN_TEXT(BLANK)",
+      "EE",
+      "LSISF",
+      "LSISCOE",
+      "LSISESE",
+      "LSISEB",
+      "LSISEBE"
+    ]
   }
 ]
