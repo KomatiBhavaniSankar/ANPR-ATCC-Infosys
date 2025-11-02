@@ -54,11 +54,7 @@ cover/
 *.mo
 *.pot
 
-# Django stuff
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+
 
 # Flask stuff
 instance/
@@ -92,10 +88,7 @@ venv.bak/
 *.sublime-workspace
 *.sublime-project
 
-# OS files
-.DS_Store
-Thumbs.db
-desktop.ini
+
 
 # Logs & runtime
 *.log
@@ -105,11 +98,7 @@ tmp/
 temp/
 *.pid
 
-# Databases
-*.sqlite
-*.sqlite3
-*.db
-*.db-journal
+
 
 # === Machine learning / CV artifacts ===
 # model weights and checkpoints
