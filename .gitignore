@@ -122,11 +122,9 @@ temp/
 *.pb
 
 # YOLO / ultralytics / training runs
-runs/
-weights/
+
 checkpoints/
-results/
-outputs/
+
 predictions/
 train_results/
 val_results/
