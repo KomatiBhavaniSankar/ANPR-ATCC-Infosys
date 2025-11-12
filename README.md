@@ -204,7 +204,3 @@ This project is licensed under the [MIT License](https://www.google.com/search?q
 *ANPR-ATCC aims to revolutionize intelligent traffic monitoring by merging AI-powered vision, automation, and real-time analytics into one unified platform — contributing toward smarter, safer, and more efficient cities.*
 
 -----
-
------
-
-Let me know if you need to make any further modifications to the `README`\!
