@@ -13,34 +13,101 @@ This solution leverages the best of modern computer vision and OCR technologies,
 
 -----
 
-## Key Features
+## 🔑 Key Features
 
-  - **Robust License Plate Detection & OCR**
-    Accurate YOLOv10 detection of diverse license plates combined with Tesseract OCR for high-fidelity text extraction.
+### **1. Robust License Plate Detection & OCR**
+Accurate **YOLOv10** detection of diverse license plates combined with **Tesseract OCR** for high-fidelity text extraction.
 
-  - **Intelligent ANPR Whitelist/Blacklist System 🚨**
-    **Whitelisting** of **VIP** and **Emergency** vehicles to trigger immediate access/alerts. **Blacklisting** for **stolen vehicle detection** to flag and track high-priority violations in real-time.
+---
 
-  - **Multi-class Vehicle Traffic Analyzer**
-    YOLOv11n-based vehicle detection classifies vehicle types, counts, and estimates traffic congestion in real-time.
+### **2. Intelligent ANPR Whitelist/Blacklist System 🚨**
+This feature enables real-time, prioritized security and access control based on the detected license plate against two managed lists:
 
-  - **Flexible Input Sources**
-    Supports video files, images, and real-time camera feeds (including experimental webcam streaming).
+#### ✅ **Whitelisting for VIP and Emergency Vehicles**
+The system instantly recognizes plates belonging to:
+- VIP personnel (e.g., government officials)
+- Emergency services (ambulances, police, fire trucks)
 
-  - **Comprehensive Data Logging & Advanced Visualization 📊**
-    Outputs stored persistently in SQLite databases and cumulative JSON files with rich Streamlit dashboards. Includes **enhanced ATCC data visualization** for displaying complex traffic flow patterns, peak hour heatmaps, and trend analysis alongside historical analytics and detections.
+Detection of a whitelisted plate triggers:
+- Immediate, high-priority alert  
+- Optional integration with access control systems (e.g., boom barriers)  
+- Swift automated clearance through checkpoints or controlled zones  
 
-  - **Interactive and Customizable UI**
-    Streamlit interface features confidence and IoU threshold sliders, real-time detection previews, and database management tools.
+#### 🛑 **Blacklisting for Stolen Vehicles**
+A continuously updated list of stolen, flagged, or wanted vehicles.
 
-  - **Error Handling & Resilience**
-    Graceful fallback for OCR if Tesseract is unavailable, temporary file cleanup, and consistent database synchronization.
+When a blacklisted plate is detected:
+- A critical violation alarm is triggered  
+- Location and timestamp are logged  
+- Optional real-time notification to law enforcement for interception  
 
-  - **Cross-platform Compatibility**
-    Tested on Linux, Windows, and macOS environments with detailed environment setup guides.
+---
 
-  - **Modular Architecture**
-    Separate processing pipelines for ANPR and ATCC enable extensibility and easy maintenance.
+### **3. Multi-class Vehicle Traffic Analyzer**
+**YOLOv11n**-based vehicle detection that classifies vehicle types, counts them, and estimates traffic congestion in real time.
+
+---
+
+### **4. Flexible Input Sources**
+Supports:
+- Video files  
+- Images  
+- Real-time camera streams  
+- *Experimental*: Webcam streaming  
+
+---
+
+### **5. Comprehensive Data Logging & Advanced Visualization 📊**
+Outputs are persistently stored in:
+- SQLite databases  
+- Cumulative JSON files  
+
+Enhanced Streamlit dashboards provide:
+- ATCC traffic visualizations  
+- Traffic flow analysis  
+- Peak-hour heatmaps  
+- Trend analysis  
+- Historical detections overview  
+
+---
+
+### **6. Interactive and Customizable UI**
+Streamlit-powered interface with:
+- Confidence and IoU threshold sliders  
+- Real-time detection previews  
+- Built-in database management tools  
+
+---
+
+### **7. Error Handling & Resilience**
+Includes:
+- Graceful fallback if Tesseract OCR is unavailable  
+- Temporary file cleanup  
+- Reliable database synchronization  
+
+---
+
+### **8. Cross-platform Compatibility**
+Tested on:
+- Linux  
+- Windows  
+- macOS  
+
+Comes with detailed environment setup instructions.
+
+---
+
+### **9. Modular Architecture**
+Separate pipelines for:
+- **ANPR**  
+- **ATCC**
+
+This ensures:
+- Easy maintenance  
+- Clean codebase  
+- High extensibility  
+
+
 
 -----
 
